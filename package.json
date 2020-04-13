@@ -2,7 +2,7 @@
   "name": "minesweeper-native",
   "version": "1.0.0",
   "description": "A classic minesweeper desktop app",
-  "repository": "",
+  "repository": "https://github.com/michaelacook/minesweeper-native",
   "author": "Michael A. Cook <mcook0775@gmail.com>",
   "license": "MIT",
   "main": "main.js",
