@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Minesweeper</title>
+        <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="controls">
+                <select id="difficulty">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                </select>
+            </div>
+
+            <div id="gameArea">
+                <div id="displays">
+                    <div id="mineCount"></div>
+
+                    <div class="smiley" id="game-status"></div>
+
+                    <div id="timer">000</div>
+                </div>
+                <div id="grid"></div>
+            </div>
+        </div>
+    </body>
+
+    <script type="text/javascript" src="classes/Space.js"></script>
+    <script type="text/javascript" src="classes/Grid.js"></script>
+    <script type="text/javascript" src="classes/Game.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</html>

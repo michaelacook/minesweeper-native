@@ -1,0 +1,136 @@
+body {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+
+button {
+    background-color: #C0C0C0;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.cell {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #C0C0C0;
+    padding-top: 4px;
+    width: 30.75px;
+    height: 30.75px;
+    border: 4.25px solid;
+    border-top-color: #ffffff;
+    border-right-color: #7B7B7B;
+    border-bottom-color: #7B7B7B;
+    border-left-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#timer, #mineCount {
+    background-color: black;
+    color: #FF0A00;
+    font-size: 2.9rem;
+    letter-spacing: -3.5px;
+    line-height: 43px;
+    padding-right: 3px;
+    height: 40px;
+}
+
+#grid {
+    border-top: 5px solid #7B7B7B;
+    border-left: 5px solid #7B7B7B;
+    border-right: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+}
+
+#gameArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #C0C0C0;
+    padding: 9px 9px;
+    border-top: 5px solid #ffffff;
+    border-left: 5px solid #ffffff;
+    border-bottom: 5px solid #7B7B7B;
+    border-right: 5px solid #7B7B7B;
+    width: 287px;
+    margin: 0;
+}
+
+#displays {
+    padding:7px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 5px solid #ffffff;
+    border-right: 5px solid #ffffff;
+    border-top: 5px solid #7B7B7B;
+    border-left: 5px solid #7B7B7B;
+    margin-bottom: 9px;
+}
+
+#game-status {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-size: cover;
+}
+
+ .flagged {
+    background: url(../img/flag.svg);
+    background-size: 27px 25px;
+    background-repeat: no-repeat;
+ }
+
+ .questionmark {
+     background: url(../img/questionmark.svg);
+     background-size: 27px 27px;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ .mine {
+     background: url(../img/mine.svg);
+     background-size: 27px 27px;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ .mine-strike {
+     background: url(../img/minestrike.svg);
+     background-size: 27px 27px;
+     background-repeat: no-repeat;
+     background-position: center;
+     padding-top: 1.5px;
+ }
+
+.smiley {
+    background: url(../img/smileysprite.png);
+    background-position: 0 0;
+}
+
+.down-smiley {
+    background: url(../img/smileysprite.png);
+    background-position: -40px 0;
+}
+
+.o-smiley {
+    background: url(../img/smileysprite.png);
+    background-position: -80px 0;
+}
+
+.lose-smiley {
+    background: url(../img/smileysprite.png);
+    background-position: -120px 0;
+}
+
+.win-smiley {
+    background: url(../img/smileysprite.png);
+    background-position: -160px 0;
+}
+
+.controls {
+    display: inline-block;
+    margin-bottom:3px;
+}
